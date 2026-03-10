@@ -1,0 +1,840 @@
+@media screen and (max-width: 1440px) {
+
+    .slick-prev {
+        top: 60%;
+        left: -20px;
+    }
+
+    .slick-next {
+        top: 60%;
+        right: -20px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .footer__div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__logo {
+        margin: 0;
+    }
+
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .data {
+        margin: 0;
+        margin-bottom: 38px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* работа с properties */
+    .definition {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .definition__title {
+        margin-bottom: 30px;
+    }
+
+    .row__properties {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+
+    .property__card {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 40px;
+    }
+
+    .card__text {
+        text-align: start;
+    }
+
+
+    /* работа с выборкой */
+    .row__products {
+        flex-direction: column;
+        margin: 0 80px 120px 80px;
+    }
+
+    .product {
+        margin-bottom: 50px;
+    }
+
+    .saturn-45 {
+        top: 50%;
+        right: 10%;
+    }
+
+    .rocket-1 {
+        left: 0;
+        top: 10%;
+    }
+
+
+    /*  advantages  */
+    .ufo-1 {
+        top: -80px;
+        right: -60px;
+    }
+
+    .saturn45 {
+        position: absolute;
+        left: 100px;
+        top: -50px;
+    }
+
+    .second__step,
+    .fourth__step {
+        top: 40px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    /* characteristics */
+    .ufo-2 {
+        position: absolute;
+        z-index: -3;
+        top: 50px;
+        left: 110px;
+    }
+
+    /* точечная расстановка веток */
+    .branch__1 {
+        position: relative;
+        top: -50px;
+        left: 90px;
+    }
+
+    .branch__3 {
+        position: relative;
+        top: 100px;
+        left: 90px;
+    }
+
+    .branch__4 {
+        position: relative;
+        top: 110px;
+        left: 90px;
+    }
+
+    .branch__1-2 {
+        position: relative;
+        top: -50px;
+        left: -100px;
+        z-index: -1;
+    }
+
+    .branch__3-2 {
+        position: relative;
+        top: 70px;
+        left: -35px;
+        z-index: -1;
+    }
+
+    /* =================== */
+    .islam {
+        position: absolute;
+        right: 0;
+        top: -60px;
+    }
+
+    .rocket-2 {
+        z-index: -1;
+    }
+
+    .ufo-1__order {
+        z-index: -1;
+    }
+
+    .ufo-1 {
+        display: none;
+    }
+
+    .telephone {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .burger-menu {
+        display: inline-block;
+
+        background: transparent;
+        border: none;
+        outline: none;
+
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+
+    .menu {
+        display: none;
+    }
+
+    .menu {
+        list-style: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000e3;
+
+        z-index: 100;
+    }
+
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .close svg {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        margin-bottom: 100px;
+    }
+
+    .close svg path {
+        fill: #ffffff;
+    }
+
+    .menu-list li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+
+        margin-bottom: 25px;
+    }
+
+    .menu-list li a {
+        font-size: 21px;
+    }
+
+    .menu.open {
+        display: block;
+    }
+
+    .close {
+        display: block;
+        fill: white;
+    }
+
+    .properties {
+        margin-top: 0;
+    }
+
+    .advantages__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .saturn45 {
+        display: block;
+        left: 15px;
+    }
+
+    .ufo-1 {
+        display: none;
+    }
+
+    .ufo-2 {
+        display: none;
+    }
+
+    .branch__arrow {
+        display: none;
+    }
+
+    .branch {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .branch__text {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .left__delta {
+        display: none;
+    }
+
+    .right__delta {
+        display: none;
+    }
+
+    .characteristics__image {
+        order: 2;
+    }
+
+    .leftRight__delta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .graph {
+        margin: 0;
+        padding: 0;
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .type__nightlight {
+        text-align: start;
+        margin-bottom: 5px;
+    }
+
+    .block__img__2 {
+        overflow-y: hidden;
+    }
+
+    .point {
+        margin-bottom: 15px;
+    }
+
+    .islam {
+        display: none;
+    }
+
+    .ufo-1__order {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .saturn-45,
+    .rocket-1,
+    .uranus {
+        display: block;
+    }
+
+    .saturn-45 {
+        right: -10%;
+    }
+
+    .rocket-1 {
+        left: -90px;
+    }
+
+    .saturn45 {
+        left: 10px;
+        width: 100px;
+        z-index: -1;
+    }
+
+    .uranus {
+        top: -6px;
+        left: 10px;
+        width: 100px;
+    }
+
+    .rocket-1__320 {
+        display: block;
+        position: absolute;
+        right: 10px;
+        width: 100px;
+        top: 15%;
+    }
+
+    .islam {
+        display: block;
+        top: 12%;
+        right: 20px;
+        width: 100px;
+    }
+
+    .rocket-2 {
+        width: 200px;
+        top: 91%;
+    }
+
+
+    .main {
+        padding-bottom: 0;
+    }
+
+    .right__side {
+        display: none;
+    }
+
+    .left__side {
+        text-align: center;
+    }
+
+    .nightlight {
+        display: flex;
+        width: 100%;
+
+        position: relative;
+        z-index: -1;
+
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        margin-bottom: 26px;
+        margin-top: 90px;
+    }
+
+    .marketing {
+        margin-bottom: 0;
+        display: inline-block;
+    }
+
+    .buy-btn {
+        padding: 15px 36px;
+        font-weight: bold;
+        font-size: 14px;
+        display: inline-block;
+    }
+
+
+    .properties {
+        margin-bottom: 103px;
+        margin-top: 99px;
+    }
+
+    .property__card {
+        margin: 0 30px 33px 0;
+    }
+
+    .card__text {
+        width: 100%;
+    }
+
+    .row__products {
+        margin-bottom: 100px;
+    }
+
+    .advantages {
+        margin-bottom: 100px;
+    }
+
+    .characteristics {
+        margin-bottom: 100px;
+    }
+
+    .characteristics__image {
+        display: none;
+    }
+
+    .characteristics__title {
+        text-align: start;
+    }
+
+    .graph {
+        display: flex;
+        justify-content: start;
+    }
+
+    .type__nightlight {
+        margin-bottom: 15px;
+    }
+
+    .feedback__title {
+        margin-bottom: 0;
+    }
+
+    .order__steps {
+        margin-bottom: 0;
+    }
+
+    .title__steps {
+        margin-bottom: 0;
+    }
+
+    .row__steps {
+        flex-direction: column;
+    }
+
+    .step {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+    .second__step {
+        top: -55px;
+        left: 130px;
+    }
+
+    .third__step {
+        top: -100px;
+    }
+
+    .fourth__step {
+        top: -140px;
+        left: 130px;
+    }
+
+
+    .number__step {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        align-items: center;
+
+        max-width: 43px;
+    }
+
+    .step__text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        align-items: center;
+        display: flex;
+    }
+
+    .first__text {
+        max-width: 173px;
+        bottom: -76px;
+        left: 45px;
+    }
+
+    .second__text {
+        max-width: 196px;
+        bottom: -76px;
+        left: 45px;
+    }
+
+    .third__text {
+        max-width: 243px;
+        bottom: -76px;
+        left: 45px;
+    }
+
+    .fourth__text {
+        bottom: -76px;
+        left: 45px;
+    }
+
+
+    .fourth__text {
+        max-width: 237px;
+    }
+
+
+    .footer__div {
+        flex-direction: column;
+    }
+
+    .footer__info {
+        order: 3;
+        margin-left: 10px;
+    }
+
+    .footer__logo {
+        margin-bottom: 30px;
+    }
+
+    .social__media {
+        display: inline-block;
+        margin-bottom: 35px;
+        margin-left: 10px;
+    }
+
+    .social__media a {
+        margin-right: 20px;
+    }
+
+    .data {
+        margin: 0;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .address,
+    .dotcom,
+    .phone__line,
+    .calendar {
+        margin-bottom: 19px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .slick-arrow,
+    .slick-prev,
+    .slick-next {
+        background: transparent;
+        pointer-events: none;
+    }
+
+    .slick-dots {
+        display: flex;
+        position: absolute;
+
+        left: calc(50% - 120px);
+        bottom: -70px;
+
+        max-width: 100px;
+        list-style: none;
+    }
+
+    .slick-dots li button {
+        text-decoration: none;
+        margin: 0 7px;
+
+        width: 15px;
+        height: 15px;
+
+        color: transparent;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+    }
+
+    .slick-dots li button:focus {
+        background-color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .definition__title {
+        font-size: 21px;
+    }
+
+    .definition__text,
+    .marketing {
+        font-size: 14px;
+    }
+
+    .card__text {
+        font-size: 12px;
+    }
+
+    .choose {
+        font-size: 21px;
+    }
+
+    .product__name {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .advantages-title {
+        font-size: 21px;
+    }
+
+    .advantage__text {
+        font-size: 12px;
+    }
+
+    .characteristics__title {
+        font-size: 21px;
+    }
+
+    .type__nightlight,
+    .branch__text {
+        font-size: 14px;
+    }
+
+    .feedback__title {
+        font-size: 21px;
+    }
+
+    .title__steps {
+        font-size: 21px;
+    }
+
+    .step__text {
+        font-size: 14px;
+    }
+
+    .form__title {
+        font-size: 21px;
+    }
+
+    /* ===================== */
+
+    .row__products {
+        margin: 0 45px 80px 45px;
+    }
+
+    .product {
+        /*margin: 0 45px 50px 45px;*/
+    }
+
+    .product__img {
+        width: 100%;
+    }
+
+    .to-buy {
+        padding: 10px 26px;
+        font-size: 14px;
+    }
+
+    .old__price {
+        color: #747272;
+    }
+
+    .order__steps {
+        max-width: 100%;
+    }
+
+    .number__step {
+        font-size: 100px;
+    }
+
+    .second__step {
+        top: -55px;
+        left: 60px;
+    }
+
+    .fourth__step {
+        top: -165px;
+        left: 60px;
+    }
+
+    .first__text {
+        max-width: 163px;
+        bottom: -20px;
+        left: 30px;
+    }
+
+    .second__text {
+        max-width: 189px;
+        bottom: -25px;
+        left: 25px;
+    }
+
+    .third__text {
+        max-width: 218px;
+        bottom: -25px;
+        left: 35px;
+    }
+
+    .fourth__text {
+        bottom: -20px;
+        left: 35px;
+        max-width: 190px;
+    }
+
+    .form {
+        display: flex;
+        max-width: 100%;
+    }
+
+    .form__name,
+    .form__phone {
+        padding-right: calc(100% - 180px);
+    }
+
+    .block__form {
+        margin-bottom: 99px;
+        margin-top: -90px;
+    }
+
+    .islam,
+    .rocket-1,
+    .uranus,
+    .saturn-45 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .saturn-45 {
+        display: block;
+        top: 467px;
+        width: 52px;
+    }
+
+    .saturn45 {
+        display: none;
+    }
+
+    .rocket-1__320 {
+        display: block;
+        position: absolute;
+        width: 70px;
+        right: 10px;
+        top: -25px;
+    }
+
+    .ufo-2__320 {
+        display: block;
+        position: absolute;
+        width: 70px;
+        left: 10px;
+        top: 0;
+    }
+
+    .ufo-1__320 {
+        display: block;
+        position: absolute;
+        width: 86px;
+        left: 196px;
+        top: 465px;
+        rotate: -10deg;
+    }
+
+    .uranus__320 {
+        display: block;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        width: 78px;
+    }
+
+    .rocket-2 {
+        display: block;
+        position: absolute;
+        width: 74px;
+        top: 562px;
+        left: 6%;
+    }
+
+}

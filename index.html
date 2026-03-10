@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NIGHT-LIGHT</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!-- для image 3 -->
+    <div class="block__img__3">
+        <div class="overflow__block overflow-hidden"> <!-- костыль для картинки и переполнения -->
+
+            <!-- header -->
+            <header class="header d-flex justify-content-between align-items-center container">
+                <div class="logo wow animate__backInLeft">
+                    <img src="images/logo.png" alt="Logo">
+                </div>
+
+                <button class="burger-menu" id="burger-menu">
+                    <img src="images/burger-menu.png" alt="menu">
+                </button>
+
+
+                <div class="menu" id="menu">
+                    <!-- крестик -->
+                    <div class="close">
+                        <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M19.207 6.207a1 1 0 0 0-1.414-1.414L12 10.586 6.207 4.793a1 1 0 0 0-1.414 1.414L10.586 12l-5.793 5.793a1 1 0 1 0 1.414 1.414L12 13.414l5.793 5.793a1 1 0 0 0 1.414-1.414L13.414 12l5.793-5.793z"
+                                fill="#000000" />
+                        </svg>
+                    </div>
+                    <ul class="menu-list">
+                        <li class="menu__item wow animate__backInDown"><a href="#definition">Описание</a></li>
+                        <li class="menu__item wow animate__backInDown"><a href="#selection">Характеристики</a></li>
+                        <li class="menu__item wow animate__backInDown"><a href="#advantages">Преимущества</a></li>
+                        <li class="menu__item wow animate__backInDown"><a href="#feedback">Отзывы</a></li>
+                        <li class="menu__item wow animate__backInDown"><a href="#order__steps">Как заказать?</a></li>
+                        <li class="menu__item wow animate__backInDown"><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div class="telephone wow animate__backInRight">
+                    <img src="images/telephone.png" class="phone__img" alt="Telephone">
+                    <a class="phone__number phone" href="tel:+380 (98) 457-25-67">+380 (98) 457-25-67</a>
+                </div>
+            </header>
+
+            <!-- main section -->
+            <section class="main container justify-content-start align-items-center">
+
+                <div class="left__side wow animate__backInLeft">
+                    <h1>
+                        Музыкальный ночник
+                        «Звездное небо»
+                    </h1>
+
+                    <div class="marketing">
+                        Подари своему малышу настоящую сказку,
+                        окутанную россыпью красивых звезд!
+                    </div>
+
+                    <div class="nightlight">
+                        <img src="images/nightlight.png" alt="poster">
+                    </div>
+
+                    <a href="#selection" class="buy-btn">
+                        Купить ночник
+                    </a>
+                </div>
+
+                <div class="right__side wow animate__fadeIn">
+                    <img src="images/poster.png" alt="Poster" class="poster__img stars">
+                </div>
+            </section>
+        </div>
+
+
+        <!-- properties -->
+        <section class="properties container" id="definition">
+
+            <div class="definition justify-content-between align-items-start d-flex">
+                <div class="definition__title wow animate__fadeInLeft">
+                    Музыкальный ночник
+                    «Звездное небо» это —
+                </div>
+
+                <div class="definition__text wow animate__fadeInRight">
+                    функциональный проектор, который станет незаменимой вещью в комнате малыша. Предназначенный для
+                    детишек с
+                    рождения, он призван создавать неповторимую и успокаивающую атмосферу для быстрого и сладкого
+                    засыпания.
+                </div>
+            </div>
+
+            <div class="row__properties wow animate__fadeInUp">
+
+                <!-- 1 -->
+                <div class="property__card">
+                    <div class="card__icon">
+                        <img src="images/icon1.png" alt="stars">
+                    </div>
+
+                    <div class="card__text">
+                        Чарующая проекция звездного неба в сочетании с приятной мелодией
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="property__card">
+                    <div class="card__icon">
+                        <img src="images/icon2.png" alt="crib">
+                    </div>
+
+                    <div class="card__text">
+                        Функция голосовой активации, можно автоматически включать проектор с колыбельной
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="property__card">
+                    <div class="card__icon">
+                        <img src="images/icon3.png" alt="note">
+                    </div>
+
+                    <div class="card__text">
+                        Длительность циклов воспроизведения мелодий состовляет 30 мин.
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="property__card">
+                    <div class="card__icon">
+                        <img src="images/icon4.png" alt="light">
+                    </div>
+
+                    <div class="card__text">
+                        Три световых режима: проектор звездного неба, ночник, мягкое разноцветное свечение
+                    </div>
+                </div>
+            </div>
+
+            <img src="images/stars_bg_properties.png" alt="stars" class="properties__img stars">
+        </section>
+
+        <img src="images/background-3.png" alt="background-3" class="background-3">
+    </div>
+
+
+    <!-- для image 2 -->
+    <div class="block__img__2">
+
+        <!-- selection -->
+        <section class="selection container" id="selection">
+
+            <!-- небесные тела -->
+            <img src="images/saturn-45.png" alt="saturn" class="saturn-45">
+
+            <h2 class="choose text-center wow animate__fadeIn">
+                Выбери ночник для спокойного сна малыша
+            </h2>
+
+            <div class="d-flex row__products justify-content-between align-items-center">
+
+                <!-- небесные тела -->
+                <img src="images/rocket-1.png" alt="rocket" class="rocket-1">
+
+                <!-- 1 -->
+                <div class="product d-flex flex-column wow animate__flipInX">
+                    <img src="images/product-1.png" alt="red-ufo" class="product__img">
+
+                    <div class="product__name">
+                        Ночник
+                        «Летающая тарелка»,
+                        розовый
+                    </div>
+
+                    <div class="product__bottom d-flex justify-content-between align-items-center">
+                        <div class="price">
+                            <div class="old__price">550 грн</div>
+                            420 грн
+                        </div>
+
+                        <button type="button" class="buy-btn to-buy" id="red__nightlight">
+                            Купить
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="product d-flex flex-column wow animate__flipInX">
+                    <img src="images/product-2.png" alt="red-ufo" class="product__img">
+
+                    <div class="product__name">
+                        Ночник
+                        «Летающая тарелка»,
+                        зеленый
+                    </div>
+
+                    <div class="product__bottom d-flex justify-content-between align-items-center">
+                        <div class="price">
+                            550 грн
+                        </div>
+
+                        <button type="button" class="buy-btn to-buy green__nightlight" id="green__nightlight">
+                            Купить
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="product d-flex flex-column wow animate__flipInX">
+                    <img src="images/product-3.png" alt="red-ufo" class="product__img">
+
+                    <div class="product__name">
+                        Ночник
+                        «Летающая тарелка»,
+                        белый
+                    </div>
+
+                    <div class="product__bottom d-flex justify-content-between align-items-center">
+                        <div class="price">
+                            550 грн
+                        </div>
+
+                        <button type="button" class="buy-btn to-buy white__nightlight" id="white__nightlight">
+                            Купить
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- фоновые звезды -->
+            <img src="images/stars_bg_products.png" alt="selection__img" class="selection__img stars">
+
+        </section>
+
+
+        <!-- advantages -->
+        <div class="advantages container" id="advantages">
+
+            <!-- небесные тела -->
+            <img src="images/ufo-1.png" alt="ufo" class="ufo-1">
+            <img src="images/saturn45.png" alt="saturn" class="saturn45">
+
+            <h2 class="advantages-title wow animate__fadeIn">
+                Преимущества
+            </h2>
+
+            <div class="advantages__grid wow animate__fadeIn">
+                <!-- 1 -->
+                <div class="advantage">
+                    <div class="firefly"><img src="images/firefly.png" alt="Firefly"></div>
+                    <div class="advantage__text">Приятный мягкий свет абсолютно не мешает сну</div>
+                </div>
+
+                <!-- 2 -->
+                <div class="advantage">
+                    <div class="firefly"><img src="images/firefly.png" alt="Firefly"></div>
+                    <div class="advantage__text">Свет мягкой подсветки не имеет бликов и не слепит глаза</div>
+                </div>
+
+                <!-- 3 -->
+                <div class="advantage">
+                    <div class="firefly"><img src="images/firefly.png" alt="Firefly"></div>
+                    <div class="advantage__text">Работает от сети и батареек</div>
+                </div>
+
+                <!-- 4 -->
+                <div class="advantage">
+                    <div class="firefly"><img src="images/firefly.png" alt="Firefly"></div>
+                    <div class="advantage__text">Мощные светодиоды, которые формируют четкую проекцию</div>
+                </div>
+
+                <!-- 5 -->
+                <div class="advantage">
+                    <div class="firefly"><img src="images/firefly.png" alt="Firefly"></div>
+                    <div class="advantage__text">Абсолютно безопасен для здоровья, имеет MSDS сертификаты</div>
+                </div>
+
+                <!-- 6 -->
+                <div class="advantage">
+                    <div class="firefly"><img src="images/firefly.png" alt="Firefly"></div>
+                    <div class="advantage__text">Не имеет запаха</div>
+                </div>
+
+                <!-- 7 -->
+                <div class="advantage">
+                    <div class="firefly"><img src="images/firefly.png" alt="Firefly"></div>
+                    <div class="advantage__text">Лампа не нагревается - не обжигает руки</div>
+                </div>
+
+                <!-- 8 -->
+                <div class="advantage">
+                    <div class="firefly"><img src="images/firefly.png" alt="Firefly"></div>
+                    <div class="advantage__text">Изготовлен из качественных гипоаллергенных материалов</div>
+                </div>
+            </div>
+
+            <img src="images/stars_bg_advantages.png" alt="advantages__img" class="advantages__img stars">
+        </div>
+
+
+        <!-- characteristics -->
+        <section class="characteristics container">
+
+            <img src="images/rocket-1.png" alt="rocket" class="rocket-1__320">
+
+            <img src="images/ufo-2.png" alt="ufo-2" class="ufo-2">
+
+            <h2 class="characteristics__title">Характеристики</h2>
+
+            <div class="graph__characteristics">
+
+                <h3 class="type__nightlight">Тип — ночник</h3>
+
+                <!-- граф характеристик -->
+                <div class="graph">
+
+
+                    <div class="leftRight__delta">
+                        <!-- left -->
+                        <div class="left__delta__2">
+                            <!-- branch 1 -->
+                            <div class="point__1 point">
+                                <div class="branch__text__1 branch__text">Количество источников света — 5</div>
+                                <div class="branch__arrow"><img src="images/figure1.png" alt="branch"></div>
+                            </div>
+
+                            <!-- branch 2 -->
+                            <div class="point__2 point">
+                                <div class="branch__text__2 branch__text">Мощность лампы — 0,8Вт</div>
+                                <div class="branch__arrow"><img src="images/figure2.png" alt="branch"></div>
+                            </div>
+
+                            <!-- branch 3 -->
+                            <div class="point__3 point">
+                                <div class="branch__text__3 branch__text">Страна производитель — Украина</div>
+                                <div class="branch__arrow"><img src="images/figure3.png" alt="branch"></div>
+                            </div>
+
+                            <!-- branch 4 -->
+                            <div class="point__4 point">
+                                <div class="branch__text__4 branch__text">Габариты — 132 × 151 × 151 мм</div>
+                                <div class="branch__arrow"><img src="images/figure4.png" alt="branch"></div>
+                            </div>
+                        </div>
+                        <!-- right -->
+                        <div class="right__delta__2">
+                            <!-- 1 -->
+                            <div class="point__5 point">
+                                <div class="branch__text branch__text__1-2">Тип выключателя — кнопка на корпусе</div>
+                                <img src="images/figure1-2.png" alt="branch" class="branch__arrow">
+                            </div>
+
+                            <!-- 2 -->
+                            <div class="point__6 point">
+                                <div class="branch__text branch__text__2-2">Тип лампы — светодиодная</div>
+                                <img src="images/figure2-2.png" alt="branch" class="branch__arrow">
+                            </div>
+
+                            <!-- 3 -->
+                            <div class="point__7 point">
+                                <div class="branch__text branch__text__3-2">Материал плафона — пластик</div>
+                                <img src="images/figure3-2.png" alt="branch" class="branch__arrow">
+                            </div>
+
+                            <!-- 4 -->
+                            <div class="point__8">
+                                <div class="branch__text branch__text__4-2">Вес — 400 гр</div>
+                                <img src="images/figure4-2.png" alt="branch" class="branch__arrow">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- left -->
+                    <div class="left__delta">
+                        <!-- branch 1 -->
+                        <div class="branch__1 branch">
+                            <div class="branch__text__1 branch__text">Количество источников света — 5</div>
+                            <div class="branch__arrow"><img src="images/figure1.png" alt="branch"></div>
+                        </div>
+
+                        <!-- branch 2 -->
+                        <div class="branch__2 branch">
+                            <div class="branch__text__2 branch__text">Мощность лампы — 0,8Вт</div>
+                            <div class="branch__arrow"><img src="images/figure2.png" alt="branch"></div>
+                        </div>
+
+                        <!-- branch 3 -->
+                        <div class="branch__3 branch">
+                            <div class="branch__text__3 branch__text">Страна производитель — Украина</div>
+                            <div class="branch__arrow"><img src="images/figure3.png" alt="branch"></div>
+                        </div>
+
+                        <!-- branch 4 -->
+                        <div class="branch__4 branch">
+                            <div class="branch__text__4 branch__text">Габариты — 132 × 151 × 151 мм</div>
+                            <div class="branch__arrow"><img src="images/figure4.png" alt="branch"></div>
+                        </div>
+                    </div>
+
+                    <div class="characteristics__image">
+                        <img src="images/characteristics__image.png" alt="planet">
+                        <img src="images/ellipse.png" class="orbit">
+                    </div>
+
+
+                    <!-- right -->
+                    <div class="right__delta">
+                        <!-- 1 -->
+                        <div class="branch__1-2 branch">
+                            <div class="branch__text branch__text__1-2">Тип выключателя — кнопка на корпусе</div>
+                            <img src="images/figure1-2.png" alt="branch" class="branch__arrow">
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="branch__2-2 branch">
+                            <div class="branch__text branch__text__2-2">Тип лампы — светодиодная</div>
+                            <img src="images/figure2-2.png" alt="branch" class="branch__arrow">
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="branch__3-2 branch">
+                            <div class="branch__text branch__text__3-2">Материал плафона — пластик</div>
+                            <img src="images/figure3-2.png" alt="branch" class="branch__arrow">
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="branch__4-2 branch">
+                            <div class="branch__text branch__text__4-2">Вес — 400 гр</div>
+                            <img src="images/figure4-2.png" alt="branch" class="branch__arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="images/stars_bg_specifications.png" alt="special__img" class="characteristics__img stars">
+
+        </section>
+
+        <img src="images/background-2.png" alt="background-2" class="background-2">
+    </div>
+
+
+    <!-- для image 1 -->
+    <div class="block__img__1">
+
+        <!-- feedback -->
+        <section class="feedback container text-center wow animate__fadeIn" id="feedback">
+
+            <img src="images/stars_bg_feedaway.png" alt="feedback" class="feedback__img stars">
+            <img src="images/uranus.png" alt="uranus" class="uranus">
+
+            <img src="images/ufo-2.png" alt="ufo-2" class="ufo-2__320">
+
+            <h2 class="feedback__title">Отзывы</h2>
+
+
+            <div class="feedback__people" id="feedback__people">
+
+
+                <div class="feedback__slide slick-slide slick-active">
+                    <img src="images/avatar-1.png" alt="ava" class="avatar">
+                    <h4 class="name__person">Надежда</h4>
+                    <p class="feedback__text">Прелесть, а не ночник. Нежное свечение, приятная мелодия, эргономичная
+                        конструкция, всё продумано, для самых маленьких. Всё для уюта и крепкого сна. Довольны покупкой.
+                    </p>
+                </div>
+
+
+                <div class="feedback__slide slick-slide">
+                    <img src="images/avatar-2.png" alt="ava" class="avatar">
+                    <h4 class="name__person">Александра</h4>
+                    <p class="feedback__text">Проектор очень нравится нашей малышке. Я часто включаю ночное звездное
+                        небо
+                        малышке, оно ей очень нравится. А колыбельные хорошо успокаивают ее перед сном. Качество
+                        отличное!
+                    </p>
+                </div>
+
+
+                <div class="feedback__slide slick-slide">
+                    <img src="images/avatar-3.png" alt="ava" class="avatar">
+                    <h4 class="name__person">Наталья</h4>
+                    <p class="feedback__text">Долго думали перед покупкой, но купили и я осталась довольна. Очень много
+                        разных
+                        функции, надо в них разбираться. Плюс он компактный, можно без проблем возить его с собой в
+                        поездки.
+                    </p>
+                </div>
+
+
+                <div class="feedback__slide slick-slide">
+                    <img src="images/avatar-1.png" alt="ava" class="avatar">
+                    <h4 class="name__person">Мария</h4>
+                    <p class="feedback__text">Сначала сомневались, но проектор — находка. Дочка выбирает цвета,
+                        успокаивается и засыпает быстрее. Компактный, музыка не надоедает. Очень довольны покупкой!
+                    </p>
+                </div>
+
+
+                <div class="feedback__slide slick-slide">
+                    <img src="images/avatar-2.png" alt="ava" class="avatar">
+                    <h4 class="name__person">Екатерина</h4>
+                    <p class="feedback__text">Сыну в 2 года купили от страха темноты. Теперь каждый вечер звёздное небо
+                        +
+                        колыбельная — и спит как миленький через 10 минут. Свет мягкий, пульт спасает. Рекомендую!
+                    </p>
+                </div>
+
+
+                <div class="feedback__slide slick-slide">
+                    <img src="images/avatar-3.png" alt="ava" class="avatar">
+                    <h4 class="name__person">Ольга</h4>
+                    <p class="feedback__text">Классный проектор! Дочке 1,5 года — включает, смотрит на звёздочки и
+                        быстро
+                        засыпает. Мелодии нежные, таймер удобный. Берём в поездки, качество отличное. Довольны!
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- order steps -->
+        <section class="order__steps container" id="order__steps">
+
+            <img src="images/stars_bg_steporders.png" alt="order__steps" class="orderSteps__img stars">
+            <img src="images/islam.png" alt="moon-islam" class="islam">
+
+            <img src="images/uranus.png" alt="uranus" class="uranus__320">
+            <img src="images/ufo-1.png" alt="ufo-1" class="ufo-1__320">
+
+            <h2 class="title__steps text-center wow animate__fadeIn">Этапы оформления заказа</h2>
+
+            <div class="row__steps">
+
+                <!-- 1 -->
+                <div class="step first__step wow animate__fadeInLeft">
+                    <div class="number__step first">1</div>
+                    <div class="step__text first__text">Сделайте заказ на сайте
+                        или по телефону
+                        +380 (98) 457-25-67
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="step second__step wow animate__fadeInLeft">
+                    <div class="number__step second">2</div>
+                    <div class="step__text second__text">Консультант связывается с вами
+                        для уточнения деталей заказа
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="step third__step wow animate__fadeInRight">
+                    <div class="number__step third">3</div>
+                    <div class="step__text third__text">Сообщите консультанту
+                        удобный для вас, способ оплаты
+                        и доставки ночника
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="step fourth__step wow animate__fadeInRight">
+                    <div class="number__step fourth">4</div>
+                    <div class="step__text fourth__text">Ожидайте доставку ночника
+                        на следующий день после
+                        оформления заказа
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- order form -->
+        <section class="block__form container">
+
+            <img src="images/rocket-2.png" alt="rocket-2" class="rocket-2">
+            <img src="images/ufo-1.png" alt="ufo1-" class="ufo-1__order">
+
+            <img src="images/stars_bg_order.png" alt="order__img" class="order__img stars">
+
+            <h2 class="form__title">Подари своему малышу
+                звездное небо</h2>
+
+            <form class="form wow animate__heartBeat" id="form">
+
+                <label for="name" class="label">
+                    <input type="text" name="action" id="name" placeholder="Ваше имя" class="form__name">
+                    <div class="error-input">Введите ваше имя</div>
+                </label>
+
+                <label for="phone" class="label">
+                    <!-- placeholder="+380 (__) ___-__-__" -->
+                    <input type="text" name="action" id="phone" placeholder="+380 (__) ___-__-__"
+                        class="form__phone">
+                    <div class="error-input">Введите ваш номер телефона</div>
+                </label>
+
+                <div class="checkboxes">
+                    <div class="color">Цвет ночника</div>
+                    <div class="color__checkbox">
+                        <input type="checkbox" class="red__color checkbox" id="red__color" value="red">
+                        <input type="checkbox" class="green__color checkbox" id="green__color" value="green">
+                        <input type="checkbox" class="white__color checkbox" id="white__color" value="white">
+                    </div>
+                </div>
+
+                <button type="button" class="buy-btn form__btn" id="submit">Заказать ночник</button>
+
+                <div class="form__text">После осуществления заказа, наш менеджер
+                    свяжется с вами в течение 10 мин
+                </div>
+            </form>
+
+            <div class="thx">Спасибо, мы свяжемся с вами в ближайшее время!</div>
+        </section>
+
+        <img src="images/background-1.png" alt="background-1" class="background-1">
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footer" id="contacts">
+
+        <div class="footer__div container wow animate__fadeInUp">
+            <a href="#" class="footer__logo"> <img src="images/logo.png" alt="logo" class="footer__logo__img"></a>
+
+            <div class="footer__info">
+
+                <!-- почта и имейл -->
+                <div class="data">
+                    <div class="address info__point">
+                        <img src="images/mapdot.png" alt="mapdot" class="address__icon icon">
+                        <address class="address__text">Днепр, пр-т Газеты правда, 127</address>
+                    </div>
+
+                    <div class="dotcom info__point">
+                        <img src="images/email.png" alt="email" class="email__icon icon">
+                        <a href="mailto:nochnik@gmail.com" class="email__text">nochnik@gmail.com</a>
+                    </div>
+                </div>
+
+                <!-- телефон и график работы -->
+                <div class="work__line">
+                    <div class="phone__line info__point">
+                        <img src="images/phone.png" alt="phone" class="phone__icon icon">
+                        <a class="phone__text" href="tel:+380 (98) 457-25-67" id="phone_mask">+380 (98) 457-25-67</a>
+                    </div>
+
+                    <div class="calendar info__point">
+                        <img src="images/calendar.png" alt="calendar" class="calendar__icon icon">
+                        <div class="calendar__text">Пн-Пт 9:00 - 18:00</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- соцсети -->
+            <div class="social__media">
+                <a href="#"><img src="images/instagram.png" alt="insta" class="instagram__icon"></a>
+                <a href="#"><img src="images/telegram.png" alt="telega" class="telegram__icon"></a>
+                <a href="#"><img src="images/facebook.png" alt="facebook" class="facebook__icon"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"
+        type="text/javascript"></script>
+    <script src="scripts/slick.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
